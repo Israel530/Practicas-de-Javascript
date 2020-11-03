@@ -1,1 +1,1 @@
-# Se realizan practicas de Java Scrit
+# Se realizan practicas de Java Script
