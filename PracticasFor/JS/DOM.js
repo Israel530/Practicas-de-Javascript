@@ -3,6 +3,8 @@ function EventListener(){
     document.getElementById("click").addEventListener("click", Darleclick());
     //Mandar llamar al boron 2
     document.getElementById("click2").addEventListener("click", Darleclick2());
+    //Mandar llamar al boton 3
+    document.getElementById("click3").addEventListener("click", Darleclick3());
 }
 //la funcion primer boton
 function Darleclick(){
@@ -43,7 +45,15 @@ function Darleclick2(){
 
 function Darleclick3(){
     //var salida3 = document.getElementById("salida3");
-    var listado = document.getElementById("listado");
+    var listado = document.getElementById("Listado");
 
+    for(var x=0; x<5; x++){
+
+    var lista = document.createElement("li");
     
+    lista.setAttribute("class", "list-group-item");
+    lista.innerText = x
+    //en este caso .appendChild busca el listado en el HTML y dentro del li imprime.
+    listado.appendChild(lista)
+}
 }
