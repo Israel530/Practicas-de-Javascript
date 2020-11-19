@@ -1,15 +1,18 @@
 function EventListener(){
-    document.getElementById("Sucecion").addEventListener("click", Sucecionnumerica());
+    
+    document.getElementById("Sucecion2").addEventListener("click2", Sucecionnumerica2());
 }
 
-function Sucecionnumerica(){
-    var Sucecion = document.getElementById("numeros");
 
-    for(var x=50; x>=5; x-=3){
-        
-        var lista = document.createElement("li");
-        lista.setAttribute("class", "list-group-item");
-        lista.innerText = x
-        Sucecion.appendChild(lista)
+function Sucecionnumerica2(){
+    var Sucecion2 = document.getElementById("numeros2");
+    
+    for(var x=50; x>=5; x--){
+    if(x % 3 == 0){
+        var lista2 = document.createElement("li");
+        lista2.setAttribute("class", "list-group-item");
+        lista2.innerText = x
+        Sucecion2.appendChild(lista2)
+    }
     }
 }
