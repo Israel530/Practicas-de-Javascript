@@ -1,4 +1,4 @@
 function NumerosPares(){
 
-    var Nnumeros = prompt("Ingresa un número");
+    var Numeros = prompt("Ingresa un número");
 }

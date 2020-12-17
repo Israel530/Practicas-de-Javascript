@@ -15,4 +15,6 @@ function Sucecionnumerica2(){
         Sucecion2.appendChild(lista2)
     }
     }
+}{
+    
 }
